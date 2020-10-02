@@ -59,7 +59,30 @@ background-color: rgba(200,200,200,0.1);
         color: rgba(250,250,250,1);
         font-size: 24px;
     }    
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+    .navbar {
 
+position: inherit;
+top: 0px;
+width: 100%;
+overflow: hidden;
+background-color: rgba(10,10,200,1);
+}
+  
+/* Style the navigation bar links */
+.navbar a {
+  
+  float: left;
+  display:block;
+  color: rgba(100,250,250,1);
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  
+}    
 
     </style>
 </head>
@@ -67,8 +90,8 @@ background-color: rgba(200,200,200,0.1);
     <nav class="navbar">
   <a href="storePage.html" target="_blank">StorePage</a>
   <a href="galleryPage.html" target="_blank">GalleryPage</a>
-  <a href="contact.html">ContactPage</a>
-  <a href="main.html" class="right">MainPage</a>
+  <a href="contact.html" target="_blank">ContactPage</a>
+  <a href="index.html" target="_blank" class="right">MainPage</a>
   </nav>
 
 
