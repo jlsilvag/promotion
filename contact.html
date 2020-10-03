@@ -113,6 +113,26 @@ background-color: rgba(200,200,200,0.1);
   .row {   
     flex-direction: column;
   }
+	.navbar {
+
+position: inherit;
+top: 0px;
+width: 100%;
+overflow: hidden;
+background-color: rgba(10,10,200,1);
+}
+  
+/* Style the navigation bar links */
+.navbar a {
+  
+  float: left;
+  display:block;
+  color: rgba(100,250,250,1);
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  
+}    
     .header h1 {
   font-size: 1.25em;
  top: 20%;
@@ -127,12 +147,6 @@ top: 30%;
     }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
 
     
 }
